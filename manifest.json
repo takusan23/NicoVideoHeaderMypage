@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "NicoHeaderMypage",
+    "version": "1.0",
+    "description": "ニコ動の新ヘッダーでもアイコン押してマイページを開けるようにする拡張機能",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.nicovideo.jp/*"
+            ],
+            "js": [
+                "mypage.js"
+            ]
+        }
+    ]
+}
